@@ -1,0 +1,19 @@
+A: official splits verified, 621 selection rows / 623 report rows
+A: trial ('raw', 32, 0.003, 128, 0, 20) best selection score 0.73411
+A: trial ('raw', 64, 0.003, 64, 0.5, 100) best selection score 0.72908
+A: trial ('asinh', 64, 0.003, 64, 0, 100) best selection score 0.72438
+A: trial ('asinh', 64, 0.003, 64, 0.75, 100) best selection score 0.76951
+A: trial ('shape', 64, 0.003, 64, 0, 100) best selection score 0.70679
+A: trial ('shape', 64, 0.003, 64, 0.75, 100) best selection score 0.70477
+A: selected ('asinh', 64, 0.003, 64, 0.75, 60); public validation {'macro_f1': 0.880923680332767, 'accuracy': 0.9469453376205788, 'acetaldehyde_f1': 0.782608695652174, 'acetaldehyde_precision': 0.826530612244898, 'acetaldehyde_recall': 0.7431192660550459, 'acetaldehyde_to_ethanol': 27, 'ethanol_to_acetaldehyde': 15, 'ethanol_f1': 0.8275862068965517, 'confusion_matrix': [[144, 3, 2, 15, 0, 0], [13, 321, 0, 0, 0, 0], [0, 0, 100, 0, 0, 0], [27, 0, 0, 81, 0, 1], [0, 0, 0, 2, 527, 3], [0, 0, 0, 0, 0, 5]]}
+B: official splits verified, 1637 selection rows / 42 report rows
+B: trial ('raw', 24, 0.003, 128, 0, 15) best selection score -572.32502
+B: trial ('raw', 48, 0.003, 256, 0.35, 36) best selection score -564.35130
+B: trial ('asinh', 48, 0.003, 256, 0, 45) best selection score -441.00420
+B: trial ('asinh', 48, 0.003, 256, 0.35, 45) best selection score -433.01218
+B: selected ('asinh', 48, 0.003, 256, 0.35, 4); public validation {'rmse': 431.3794758098531, 'mae': 357.8485249999539}
+C: official splits verified, 11674 selection rows / 11375 report rows
+C: trial ('raw', 32, 0.002, 256, 0, 15) best selection score -50.01652
+C: trial ('raw', 64, 0.002, 512, 0, 30) best selection score -49.52466
+C: trial ('engine', 64, 0.002, 512, 0, 30) best selection score -44.66314
+C: selected ('engine', 64, 0.002, 512, 0, 23); public validation {'rmse': 46.597228680425296, 'mae': 32.58370102542954}

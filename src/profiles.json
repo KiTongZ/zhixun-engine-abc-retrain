@@ -1,0 +1,38 @@
+{
+  "A": {
+    "profile": [
+      "asinh",
+      64,
+      0.003,
+      64,
+      0.75,
+      60
+    ],
+    "gas_pair": {
+      "mode": "relative_decay",
+      "width_factor": 1.0,
+      "threshold": 0.125,
+      "penalty": 0.01
+    }
+  },
+  "B": {
+    "profile": [
+      "asinh",
+      48,
+      0.003,
+      256,
+      0.35,
+      4
+    ]
+  },
+  "C": {
+    "profile": [
+      "engine",
+      64,
+      0.002,
+      512,
+      0,
+      23
+    ]
+  }
+}

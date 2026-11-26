@@ -1,0 +1,331 @@
+{
+  "A": {
+    "rounds": [
+      {
+        "round": 1,
+        "seconds": 1.1704876000003424,
+        "gas_pair_head": true,
+        "candidate_metrics": {
+          "macro_f1": 0.8703945392944482,
+          "accuracy": 0.934887459807074,
+          "acetaldehyde_f1": 0.7864077669902912,
+          "acetaldehyde_precision": 0.8350515463917526,
+          "acetaldehyde_recall": 0.7431192660550459,
+          "acetaldehyde_to_ethanol": 27,
+          "ethanol_to_acetaldehyde": 15,
+          "ethanol_f1": 0.7803468208092486,
+          "confusion_matrix": [
+            [
+              135,
+              13,
+              1,
+              15,
+              0,
+              0
+            ],
+            [
+              20,
+              314,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              100,
+              0,
+              0,
+              0
+            ],
+            [
+              27,
+              0,
+              0,
+              81,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              528,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ]
+        },
+        "selected": "candidate",
+        "selected_artifact_id": "offline-candidate-A-1",
+        "metrics": {
+          "macro_f1": 0.8703945392944482,
+          "accuracy": 0.934887459807074,
+          "acetaldehyde_f1": 0.7864077669902912,
+          "acetaldehyde_precision": 0.8350515463917526,
+          "acetaldehyde_recall": 0.7431192660550459,
+          "acetaldehyde_to_ethanol": 27,
+          "ethanol_to_acetaldehyde": 15,
+          "ethanol_f1": 0.7803468208092486,
+          "confusion_matrix": [
+            [
+              135,
+              13,
+              1,
+              15,
+              0,
+              0
+            ],
+            [
+              20,
+              314,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              100,
+              0,
+              0,
+              0
+            ],
+            [
+              27,
+              0,
+              0,
+              81,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              528,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ]
+        }
+      },
+      {
+        "round": 2,
+        "seconds": 1.0820907000015723,
+        "gas_pair_head": true,
+        "candidate_metrics": {
+          "macro_f1": 0.8687920811829818,
+          "accuracy": 0.9316720257234726,
+          "acetaldehyde_f1": 0.7788461538461539,
+          "acetaldehyde_precision": 0.8181818181818182,
+          "acetaldehyde_recall": 0.7431192660550459,
+          "acetaldehyde_to_ethanol": 27,
+          "ethanol_to_acetaldehyde": 15,
+          "ethanol_f1": 0.7845303867403315,
+          "confusion_matrix": [
+            [
+              142,
+              6,
+              1,
+              15,
+              0,
+              0
+            ],
+            [
+              29,
+              305,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              100,
+              0,
+              0,
+              0
+            ],
+            [
+              27,
+              0,
+              0,
+              81,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              3,
+              526,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ]
+        },
+        "selected": "parent",
+        "selected_artifact_id": "offline-candidate-A-1",
+        "metrics": {
+          "macro_f1": 0.8703945392944482,
+          "accuracy": 0.934887459807074,
+          "acetaldehyde_f1": 0.7864077669902912,
+          "acetaldehyde_precision": 0.8350515463917526,
+          "acetaldehyde_recall": 0.7431192660550459,
+          "acetaldehyde_to_ethanol": 27,
+          "ethanol_to_acetaldehyde": 15,
+          "ethanol_f1": 0.7803468208092486,
+          "confusion_matrix": [
+            [
+              135,
+              13,
+              1,
+              15,
+              0,
+              0
+            ],
+            [
+              20,
+              314,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              100,
+              0,
+              0,
+              0
+            ],
+            [
+              27,
+              0,
+              0,
+              81,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              528,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              5
+            ]
+          ]
+        }
+      }
+    ],
+    "prediction_samples": 6
+  },
+  "B": {
+    "rounds": [
+      {
+        "round": 1,
+        "seconds": 1.4296804000041448,
+        "gas_pair_head": false,
+        "candidate_metrics": {
+          "rmse": 656.4697944847112,
+          "mae": 547.3615940054848
+        },
+        "selected": "candidate",
+        "selected_artifact_id": "offline-candidate-B-1",
+        "metrics": {
+          "rmse": 656.4697944847112,
+          "mae": 547.3615940054848
+        }
+      },
+      {
+        "round": 2,
+        "seconds": 1.368826199992327,
+        "gas_pair_head": false,
+        "candidate_metrics": {
+          "rmse": 683.9072178517274,
+          "mae": 572.6101164940603
+        },
+        "selected": "parent",
+        "selected_artifact_id": "offline-candidate-B-1",
+        "metrics": {
+          "rmse": 656.4697944847112,
+          "mae": 547.3615940054848
+        }
+      }
+    ],
+    "prediction_samples": 8
+  },
+  "C": {
+    "rounds": [
+      {
+        "round": 1,
+        "seconds": 2.323059899994405,
+        "gas_pair_head": false,
+        "candidate_metrics": {
+          "rmse": 52.35017758208334,
+          "mae": 38.812042063212125
+        },
+        "selected": "candidate",
+        "selected_artifact_id": "offline-candidate-C-1",
+        "metrics": {
+          "rmse": 52.35017758208334,
+          "mae": 38.812042063212125
+        }
+      },
+      {
+        "round": 2,
+        "seconds": 2.4231156000023475,
+        "gas_pair_head": false,
+        "candidate_metrics": {
+          "rmse": 52.740935760756635,
+          "mae": 38.993129895296235
+        },
+        "selected": "parent",
+        "selected_artifact_id": "offline-candidate-C-1",
+        "metrics": {
+          "rmse": 52.35017758208334,
+          "mae": 38.812042063212125
+        }
+      }
+    ],
+    "prediction_samples": 8
+  }
+}

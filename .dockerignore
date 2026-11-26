@@ -1,0 +1,13 @@
+delivery/
+logs/
+preflight/
+results/A/
+results/B/
+results/C/
+results/*.json
+results/final/
+results/selected/
+results/release/*.json
+**/__pycache__/
+src/host_fixture.py
+src/preflight.py
